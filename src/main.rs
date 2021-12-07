@@ -4,7 +4,7 @@ use std::{thread, time};
 
 fn main() {
     ip();
-    let sleep = time::Duration::from_millis(500);
+    let sleep = time::Duration::from_millis(1500);
     thread::sleep(sleep);
     uuid();
 }
